@@ -1,4 +1,4 @@
-class Yabai < Formula
+class YabaiSourtin < Formula
   desc "A tiling window manager for macOS based on binary space partitioning. [sourtin's fork, head-only]"
   homepage "https://github.com/sourtin/yabai"
   head "https://github.com/sourtin/yabai.git"
