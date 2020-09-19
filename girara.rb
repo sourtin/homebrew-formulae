@@ -17,8 +17,8 @@ class Girara < Formula
   depends_on 'libnotify'
 
   patch do
-    url "https://gist.githubusercontent.com/sourtin/ccf49d9b9c2771968c252df4c1497e3b/raw/765cef9d7f6a45c170156eb89e5dd3c7f7a25ca1/girara-rec.diff"
-    sha256 "7d385da02b4be7d4a2d2a934aeec687f2e21b99407ed61c7a57ac4c20a7c15c9"
+    url "https://gist.githubusercontent.com/sourtin/ccf49d9b9c2771968c252df4c1497e3b/raw/bbea058b31dc02d127486bf565efd9d1f8fbca8b/girara-rec.diff"
+    sha256 "adcc7787498de93404ace32fda2ed1f54266c45d26809acf2fc3522a1122e641"
   end
 
   def install
