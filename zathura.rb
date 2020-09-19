@@ -26,7 +26,7 @@ class Zathura < Formula
     ENV['PREFIX'] = prefix
     # Add the pkgconfig for girara to the PKG_CONFIG_PATH
     # TODO: Find out why it is not added correctly for Linux
-    ENV['PKG_CONFIG_PATH'] = "#{ENV['PKG_CONFIG_PATH']}:#{Formula['girara'].prefix}/lib/x86_64-linux-gnu/pkgconfig"
+    ENV['PKG_CONFIG_PATH'] = "#{ENV['PKG_CONFIG_PATH']}:#{Formula['sourtin/formulae/girara'].prefix}/lib/x86_64-linux-gnu/pkgconfig"
     system 'mkdir build'
     system "meson build --prefix #{prefix}"
     system "cd build && ninja && ninja install"

@@ -24,9 +24,9 @@ class ZathuraPdfPoppler < Formula
     <<-EOS
       To enable this plugin you will need to link it in place.
       First create the plugin directory if it does not exist yet:
-        $ mkdir -p $(brew --prefix zathura)/lib/zathura
+        $ mkdir -p $(brew --prefix sourtin/formulae/zathura)/lib/zathura
       Then link the .dylib to the directory:
-        $ ln -s $(brew --prefix zathura-pdf-poppler)/libpdf-poppler.dylib $(brew --prefix zathura)/lib/zathura/libpdf-poppler.dylib
+        $ ln -s $(brew --prefix sourtin/formulae/zathura-pdf-poppler)/libpdf-poppler.dylib $(brew --prefix sourtin/formulae/zathura)/lib/zathura/libpdf-poppler.dylib
 
       More information as to why this is needed: https://github.com/zegervdv/homebrew-zathura/issues/19
     EOS
