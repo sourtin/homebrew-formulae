@@ -1,8 +1,8 @@
-class Dbus < Formula
+class DbusSourtin < Formula
   # releases: even (1.12.x) = stable, odd (1.13.x) = development
   desc "Message bus system, providing inter-application communication"
   homepage "https://wiki.freedesktop.org/www/Software/dbus"
-  head "https://anongit.freedesktop.org/git/sourtin/dbus.git", :branch => "macos-fixes"
+  head "git@gitlab.freedesktop.org:sourtin/dbus.git", :branch => "macos-fixes"
 
   depends_on "autoconf" => :build
   depends_on "autoconf-archive" => :build
