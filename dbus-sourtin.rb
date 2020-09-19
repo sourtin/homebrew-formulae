@@ -34,14 +34,9 @@ class DbusSourtin < Formula
                           "--sysconfdir=#{etc}",
                           "--enable-xml-docs",
                           "--disable-doxygen-docs",
-                          "--enable-launchd",
-                          "--with-launchd-agent-dir=#{prefix}",
+                          "--disable-launchd",
                           "--disable-tests"
     system "make", "install", "CPPFLAGS=-I/opt/X11/include", "LDFLAGS=-L/opt/X11/lib"
-  end
-
-  def plist_name
-    "org.freedesktop.dbus-session"
   end
 
   def post_install
