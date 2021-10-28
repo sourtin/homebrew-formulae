@@ -1,7 +1,9 @@
 class Rmtrash < Formula
   desc "Move files to macOS's Trash"
-  homepage "http://www.nightproductions.net/cli.htm"
-  url "http://www.nightproductions.net/downloads/rmtrash_source.tar.gz"
+  # homepage "http://www.nightproductions.net/cli.htm"
+  # url "http://www.nightproductions.net/downloads/rmtrash_source.tar.gz"
+  homepage "https://gist.github.com/sourtin/3e2f07d46a4fabf9eac98d61b0713198"
+  url "https://gist.github.com/sourtin/3e2f07d46a4fabf9eac98d61b0713198/raw/eb817a6d335a37485d3ed208aa07b02a7eed3cf4/rmtrash_source.tar.gz"
   version "0.3.3"
   sha256 "9b30561454529e5923ffb62327d3fe009d23495263efc958534ac6b637e361d6"
 
